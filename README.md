@@ -13,8 +13,7 @@ Atividade prática que simula um cenário real de **ataque e defesa** sobre o se
 - [3. Fase 1 — Ataque (Brute Force / Dictionary Attack)](#3-fase-1--ataque-brute-force--dictionary-attack)
 - [4. Fase 2 — Defesa e mitigação](#4-fase-2--defesa-e-mitigação)
 - [5. Resultados e análise](#5-resultados-e-análise)
-- [6. Vídeo demonstrativo](#6-vídeo-demonstrativo)
-- [7. Conclusão](#7-conclusão)
+- [6. Conclusão](#7-conclusão)
 
 ---
 
@@ -253,22 +252,7 @@ As duas camadas atuam em pontos complementares: o **fail2ban** corta o atacante 
 
 ---
 
-## 6. Vídeo demonstrativo
-
-Demonstração completa (até 5 min) disponível como vídeo **não listado** no YouTube:
-
-🔗 **[INSERIR O LINK DO YOUTUBE AQUI]**
-
-Roteiro do vídeo:
-1. Apresentação do ambiente e topologia (rede isolada)
-2. Ataque bem-sucedido contra a senha fraca + log do serviço
-3. Resistência da senha forte (`0 valid passwords found`)
-4. Ativação das defesas: fail2ban banindo o IP e 2FA exigindo o código
-5. Conclusão
-
----
-
-## 7. Conclusão
+## 6. Conclusão
 
 A atividade evidenciou, de ponta a ponta, o ciclo de ataque e defesa em torno de credenciais. Ficou demonstrado que a robustez da senha é a primeira linha de defesa — senhas fracas são triviais para um atacante — e que mecanismos complementares são indispensáveis: o bloqueio automático por IP (fail2ban) neutraliza a automação do ataque, e o segundo fator de autenticação (2FA) garante que o comprometimento da senha, isoladamente, não conceda acesso. A combinação dessas camadas, executada em ambiente controlado e ético, tornou o ataque de força bruta inviável na prática.
 
