@@ -13,7 +13,7 @@ Atividade prática que simula um cenário real de **ataque e defesa** sobre o se
 - [3. Fase 1 — Ataque (Brute Force / Dictionary Attack)](#3-fase-1--ataque-brute-force--dictionary-attack)
 - [4. Fase 2 — Defesa e mitigação](#4-fase-2--defesa-e-mitigação)
 - [5. Resultados e análise](#5-resultados-e-análise)
-- [6. Conclusão](#7-conclusão)
+- [6. Conclusão](#6-conclusão)
 
 ---
 
